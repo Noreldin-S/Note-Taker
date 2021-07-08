@@ -1,16 +1,34 @@
-# note-taker
+  ## Description
+  This tool allows users to create "to do items" add them to their list. Items added to the list can be brought back for review and/or deleted when they are completed 
 
-Repositary:
-https://github.com/Noreldin-S/note-taker
+  https://github.com/Noreldin-S/Note-Taker
 
-Link:
-https://note-taker-c.herokuapp.com/
+  ## Table of Contents
+  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
 
-I connected my github to my heroku, and deployed the files from github repository to heroku repository.
-app name called note-taker-c
+  ## Installation
+  To install necessary dependencies, run the following command:
+  `
+  npm install
+  `
 
-I created folder assets it will include the css and index.js
-inside public index.html and notes.html
+  ## Usage
+  Enter text and press the save icon to add it to the list. You can click on the title of any item in the list to bring it back up to view the details.  
+  To write a new note click the pencil icon in the top right corner of the page.  
+  To delete any item from the saved list, click the corresponding trash can icon next to the list item.  
+  
+  ![Homepage](public/images/homepage.png)
+  <b />
+  ![NoteTaker](public/images/notetaker.png)
 
-for node_modules, i installed express and uuid
-I also used nodemon so I dont have to stop the server for each change.
+
+  ## Contributing
+  [Submit any issues](https://github.com/Noreldin-S/Note-Taker/issues)
+
+
+  ## Questions
+  If you have any questions about the repo, contact [Noreldin Saad](https://github.com/Noreldin-S) or directly at [s.noreldin@hotmail.com]
